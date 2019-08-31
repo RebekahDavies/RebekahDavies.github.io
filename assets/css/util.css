@@ -16,20 +16,20 @@ h1{
     min-width: 20rem;
     height:auto;
     border: 3px solid #fff;
-    border-radius: 1rem;
+    border-radius: 3rem;
     margin:auto;
 }
 /****** Padding, margin and alignment ******/
-p0{padding: 0}
-p1{padding: 1rem}
-p2{padding: 2rem}
+.p0{padding: 0}
+.p1{padding: 1rem}
+.p2{padding: 2rem}
 
-m1{margin: 1rem}
-m2{margin: 2rem}
+.m1{margin: 1rem}
+.m2{margin: 2rem}
 
-tac{text-align: center}
-tar{text-align:right}
-tal{text-align:left}
+.tac{text-align: center}
+.tar{text-align:right}
+.tal{text-align:left}
 
 /****** navigation ******/
 .navbar-nav{
