@@ -11,6 +11,7 @@ h1{
 .jumbotron{
     border-radius:0;
 }
+
 .profile-pic{
     min-width: 20rem;
     height:auto;
@@ -19,6 +20,7 @@ h1{
     margin:auto;
 }
 /****** Padding, margin and alignment ******/
+p0{padding: 0}
 p1{padding: 1rem}
 p2{padding: 2rem}
 
