@@ -4,3 +4,10 @@
 h1{
     color: red;
 }
+/* Padding and margin */
+p1{padding: 1rem}
+p2{padding: 2rem}
+
+m1{margin: 1rem}
+m2{margin: 2rem}
+
