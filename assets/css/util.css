@@ -14,10 +14,10 @@ h1{
 
 .profile-pic{
     min-width: 20rem;
-    height:auto;
-    border: 3px solid #fff;
-    border-radius: 3rem;
-    margin:auto;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 11rem;
+    margin: auto;
 }
 /****** Padding, margin and alignment ******/
 .p0{padding: 0}
@@ -36,7 +36,11 @@ h1{
 .navbar-nav{
     font-size: 1.7rem;
 }
-.navbar-nav a{
+.navbar-nav>.active>a{
+    background-color:#c75924;
+    font-size: 1.7rem;
+}
+.navbar-nav>a{
     font-size: 1.7rem;
 }
 
