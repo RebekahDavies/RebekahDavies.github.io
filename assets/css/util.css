@@ -36,6 +36,9 @@ h1{
 .navbar-nav{
     font-size: 1.7rem;
 }
+.navbar-nav>li.active{
+    background-color:#c75924;
+}
 .navbar-nav>.active>a{
     background-color:#c75924;
     font-size: 1.7rem;
