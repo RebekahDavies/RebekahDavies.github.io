@@ -29,9 +29,12 @@ h1{
    color: #fff; 
 }
 .tab{
-    margin: 2rem;
-    padding: 3rem;
-    background-color:rgb(39, 39, 39);
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+    align-items: center;
+    width: 100%;
 }
 /****** Padding, margin and alignment ******/
 .p0{padding: 0}
