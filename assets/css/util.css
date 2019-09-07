@@ -25,6 +25,14 @@ h1{
     border-radius: 11rem;
     margin: auto;
 }
+.tab>h1{
+   color: #fff; 
+}
+.tab{
+    margin: 2rem;
+    padding: 3rem;
+    background-color:rgb(39, 39, 39);
+}
 /****** Padding, margin and alignment ******/
 .p0{padding: 0}
 .p1{padding: 1rem}
