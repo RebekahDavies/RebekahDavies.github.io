@@ -46,6 +46,8 @@ h1{
 .tar{text-align:right}
 .tal{text-align:left}
 
+.flex{display:flex}
+
 /****** navigation ******/
 .navbar-nav{
     font-size: 1.7rem;
