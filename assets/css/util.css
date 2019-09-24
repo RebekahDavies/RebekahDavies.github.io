@@ -2,6 +2,9 @@
     font-family: 'Gayathri', sans-serif;
     font-size: 62.5%; /* for better calculations when using REM and EM */
 }
+body{
+    background-color:#383838;
+}
 h1, h2, h3{
     color: #fff;
 }
