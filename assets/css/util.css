@@ -13,9 +13,18 @@ h1{
 }
 .jumbotron{
     border-radius:0;
-    margin: 2rem;
+    padding: 0;
+    margin: 0;
+    background-color:#383838;
 }
-
+.title{
+    background-color: #383838;
+    color: #fff;
+    text-align:right;
+}
+.title > h1{
+    font-size: 2.5rem;
+}
 .profile-pic{
     min-width: 20rem;
     height: auto;
@@ -48,6 +57,11 @@ h1{
 .tal{text-align:left}
 
 .flex{display:flex}
+.items-center{align-items: center}
+.items-bl{align-items: baseline}
+
+/****** sizing ******/
+.max-width-100{max-width:100%}
 
 /****** navigation ******/
 .navbar-nav{
