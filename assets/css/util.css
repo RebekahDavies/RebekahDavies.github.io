@@ -59,11 +59,15 @@ h1{
 .flex{display:flex}
 .items-center{align-items: center}
 .items-bl{align-items: baseline}
+.items-flex-end{align-items: flex-end}
 
 /****** sizing ******/
 .max-width-100{max-width:100%}
 
 /****** navigation ******/
+#nav{
+    width:100%;
+}
 .navbar-nav{
     font-size: 1.7rem;
 }
