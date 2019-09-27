@@ -26,11 +26,9 @@ h1{
     font-size: 2.5rem;
 }
 .profile-pic{
-    min-width: 20rem;
-    height: auto;
-    border: 5px solid #fff;
+    max-width: 11rem;
     border-radius: 11rem;
-    margin: auto;
+    border: 3px solid #fff;
 }
 .tab>h1{
    color: #fff; 
@@ -85,4 +83,9 @@ h1{
 /****** background colours ******/
 .black{
     background-color: #000;
+}
+
+/****** Font colours ******/
+.f-pink{
+    color:#c75925
 }
