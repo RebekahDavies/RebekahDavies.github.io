@@ -17,6 +17,11 @@ h1{
     margin: 0;
     background-color:#383838;
 }
+.jumbo-image{
+    background: url(assets/images/natalie-grainger-Mw1efRU1qcU-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 .title{
     background-color: #383838;
     color: #fff;
@@ -46,6 +51,8 @@ h1{
 .p1{padding: 1rem}
 .p2{padding: 2rem}
 
+.pl3{padding-left: 3rem;}
+
 .m0{margin:0}
 .m1{margin: 1rem}
 .m2{margin: 2rem}
@@ -61,6 +68,8 @@ h1{
 
 /****** sizing ******/
 .max-width-100{max-width:100%}
+.h100{height:100%}
+.w100{width:100%}
 
 /****** navigation ******/
 #nav{
@@ -68,6 +77,14 @@ h1{
 }
 .navbar-nav{
     font-size: 1.7rem;
+    align-items:flex-end;
+    display:flex;
+}
+.navbar-inverse{
+    background-color:#383838;
+    border: 0 0 4px 0;
+    border-bottom: 4px solid #ff6c00;
+
 }
 .navbar-nav>li.active{
     background-color:#c75924;
@@ -85,7 +102,9 @@ h1{
     background-color: #000;
 }
 
-/****** Font colours ******/
+/****** Font ******/
 .f-pink{
-    color:#c75925
+    color:#f3005c
 }
+fsz2-2{font-size:2.2rem;}
+fsz1-7{font-size:1.7rem}
