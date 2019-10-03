@@ -113,14 +113,8 @@ h1{
 .fsz1-7{font-size:1.7rem}
 
 /****** Media Queries ******/
-@media(min-width: 768px) {
-    .jumbotron{
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .container,
-    .container-fluid {
-      padding-right: 0;
-      padding-left: 0;
+@media screen and (min-width: 768px){
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding:0;
     }
 }
