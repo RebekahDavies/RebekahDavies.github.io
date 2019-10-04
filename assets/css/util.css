@@ -31,6 +31,9 @@ h1{
     font-size: 2.5rem;
 }
 .profile-pic{
+    text-align:center;
+}
+.profile-pic > img{
     max-width: 11rem;
     border-radius: 11rem;
     border: 3px solid #fff;
@@ -85,9 +88,16 @@ h1{
 }
 .navbar-inverse{
     background-color:#383838;
-    border: 0 0 4px 0;
+    border:0;
     border-bottom: 4px solid #ff6c00;
 
+}
+.active>a {
+    background-color:#c75924;
+    font-size: 2rem;
+}
+li>a{
+    font-size:1.6rem;
 }
 .navbar-nav>li.active{
     background-color:#c75924;
@@ -99,7 +109,13 @@ h1{
 .navbar-nav>a{
     font-size: 1.7rem;
 }
-
+.nav-row{
+    display:flex;
+}
+.nav-col{
+    display:flex;
+    align-items: flex-end;
+}
 /****** background colours ******/
 .black{
     background-color: #000;
@@ -116,5 +132,16 @@ h1{
 @media screen and (min-width: 768px){
     .container .jumbotron, .container-fluid .jumbotron {
         padding:0;
+    }
+}
+@media (max-width: 992px){
+    .nav-row{
+        display:block;
+    }
+    .nav-col{
+        display:block;
+    }
+    .navbar-nav{
+        display:block;
     }
 }
