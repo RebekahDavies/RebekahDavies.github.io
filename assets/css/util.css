@@ -11,11 +11,16 @@ h1, h2, h3{
 h1{
     font-size: 2rem;
 }
+.title-row{
+    height:100%;
+    display:flex;
+}
 .jumbotron{
     border-radius:0;
     padding: 0;
     margin: 0;
     background-color:#383838;
+    display:flex;
 }
 .jumbo-image{
     background: url(../images/natalie-grainger-Mw1efRU1qcU-unsplash.jpg);
@@ -92,6 +97,10 @@ h1{
     border-bottom: 4px solid #ff6c00;
 
 }
+.navbar-inverse .navbar-nav>.active>a{
+    background-color:#c75924;
+    font-size: 2rem;
+}
 .active>a {
     background-color:#c75924;
     font-size: 2rem;
@@ -116,6 +125,11 @@ li>a{
     display:flex;
     align-items: flex-end;
 }
+.navbar>.container-fluid{
+    display:flex;
+    align-items:flex-end;
+}
+
 /****** background colours ******/
 .black{
     background-color: #000;
@@ -142,6 +156,13 @@ li>a{
         display:block;
     }
     .navbar-nav{
+        display:block;
+    }
+    .navbar>.container-fluid{
+        display:block;
+    }
+    .title-row{
+        height:50%;
         display:block;
     }
 }
