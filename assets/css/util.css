@@ -147,8 +147,6 @@ li>a{
     .container .jumbotron, .container-fluid .jumbotron {
         padding:0;
     }
-}
-@media (max-width: 992px){
     .nav-row{
         display:block;
     }
@@ -161,8 +159,13 @@ li>a{
     .navbar>.container-fluid{
         display:block;
     }
+}
+@media (max-width: 992px){
+    
     .title-row{
-        height:50%;
         display:block;
+    }
+    .jumbo-image{
+        height:50%;
     }
 }
