@@ -22,6 +22,16 @@ h1{
     background-color:#383838;
     display:flex;
 }
+.display-md{
+    display:none;
+    background:transparent;
+}
+.display-md > h1 {
+    background-color:#c75925;
+    padding:2rem;
+    width:45%;
+    margin:auto;
+}
 .container .jumbotron, .container-fluid .jumbotron {
     padding:0;
 }
@@ -172,7 +182,7 @@ li>a{
         display:block;
     }
     .jumbo-image{
-        height:50%;
+        height:100%;
     }
     .nav-row{display:block;}
     .jumbotron{
@@ -184,7 +194,5 @@ li>a{
     .display-lg{
         display:none;
     }
-    .title{
-        
-    }
+
 }
