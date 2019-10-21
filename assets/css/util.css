@@ -26,6 +26,9 @@ h1{
     display:none;
     background:transparent;
 }
+.display-lg{
+    display: grid;
+}
 .display-md > h1 {
     background-color:#c75925;
     padding:2rem;
@@ -46,7 +49,6 @@ h1{
     text-align:center;
     height: 100%;
     align-items: center;
-    display: grid;
 }
 .title > h1{
     font-size: 2.5rem;
