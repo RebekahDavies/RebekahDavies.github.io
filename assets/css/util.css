@@ -78,6 +78,8 @@ h1{
 .side-container{
     background-color:#c75924;
     padding:1rem;
+    margin:1rem;
+    border-radius: 1rem;
 }
 /****** Padding, margin and alignment ******/
 .p0{padding: 0}
