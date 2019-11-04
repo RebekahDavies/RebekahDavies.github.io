@@ -15,13 +15,7 @@ h1{
     height:100%;
     display:flex;
 }
-.jumbotron{
-    border-radius:0;
-    padding: 0;
-    margin: 0;
-    background-color:#383838;
-    display:flex;
-}
+
 .display-md{
     display:none;
     background:transparent;
@@ -35,9 +29,7 @@ h1{
     width:45%;
     margin:auto;
 }
-.container .jumbotron, .container-fluid .jumbotron {
-    padding:0;
-}
+
 .jumbo-image{
     background: url(../images/natalie-grainger-Mw1efRU1qcU-unsplash.jpg);
     background-repeat:no-repeat;
@@ -71,6 +63,21 @@ h1{
     height: 100%;
     align-items: center;
     width: 100%;
+}
+/****** Containers ******/
+.jumbotron{
+    border-radius:0;
+    padding: 0;
+    margin: 0;
+    background-color:#383838;
+    display:flex;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding:0;
+}
+.side-container{
+    background-color:#c75924;
+    padding:1rem;
 }
 /****** Padding, margin and alignment ******/
 .p0{padding: 0}
