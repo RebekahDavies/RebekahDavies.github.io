@@ -64,6 +64,8 @@ h1{
     align-items: center;
     width: 100%;
 }
+/****** lists ******/
+.list-style-none{list-style-type: none;}
 /****** Containers ******/
 .jumbotron{
     border-radius:0;
