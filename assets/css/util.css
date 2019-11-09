@@ -1,6 +1,6 @@
 *{
     font-family: 'Gayathri', sans-serif;
-    font-size: 62.5%; /* for better calculations when using REM and EM */
+    font-size: 105%; /* for better calculations when using REM and EM */
 }
 body{
     background-color:#383838;
@@ -10,6 +10,13 @@ h1, h2, h3{
 }
 h1{
     font-size: 2rem;
+}
+li{
+    color:#fff;
+}
+p{
+    font-size: 104%;
+    color: #fff;
 }
 .title-row{
     height:100%;
@@ -66,7 +73,7 @@ h1{
 }
 .hr-pink{
     width:90%;
-    border:solid 1rem #f3005c;
+    border:solid 0.1rem #f3005c;
 }
 /****** lists ******/
 .list-style-none{list-style-type: none;}
