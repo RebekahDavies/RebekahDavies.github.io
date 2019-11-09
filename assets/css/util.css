@@ -11,6 +11,10 @@ h1, h2, h3{
 h1{
     font-size: 2rem;
 }
+.education > h1, .work-exp > h1{
+    background-color:#f3005c;
+    padding:1.5rem;
+}
 li{
     color:#fff;
 }
@@ -105,6 +109,8 @@ p{
 .m1{margin: 1rem}
 .m2{margin: 2rem}
 .mt1{margin-top:1rem}
+.mb1{margin-bottom:1rem;}
+.mb2{margin-bottom:2rem;}
 
 .tac{text-align: center}
 .tar{text-align:right}
@@ -170,7 +176,7 @@ li>a{
     display:flex;
     align-items:flex-end;
 }
-/****** Modal ******/
+/****** Modal + panels ******/
 
 /* The Modal (background) */
 .modal {
@@ -209,6 +215,15 @@ li>a{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .panel{
+      background-color: #c75925;
+      margin: 1rem;
+      color: #fff;
+  }
+  .edu-panel{
+      width:50%;
   }
 /****** background colours ******/
 .black{
