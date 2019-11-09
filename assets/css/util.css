@@ -9,17 +9,18 @@ h1, h2, h3{
     color: #fff;
 }
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .education > h1, .work-exp > h1{
     background-color:#f3005c;
     padding:1.5rem;
+    border-radius: 1rem;
 }
 li{
     color:#fff;
 }
 p{
-    font-size: 104%;
+    font-size: 2rem;
     color: #fff;
 }
 .title-row{
@@ -224,6 +225,7 @@ li>a{
   }
   .edu-panel{
       width:50%;
+      display:inline-flex;
   }
 /****** background colours ******/
 .black{
