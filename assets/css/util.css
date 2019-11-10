@@ -28,10 +28,6 @@ p{
     display:flex;
 }
 
-.display-md{
-    display:none;
-    background:transparent;
-}
 .display-lg{
     display: grid;
 }
@@ -89,9 +85,6 @@ p{
     margin: 0;
     background-color:#383838;
     display:flex;
-}
-.container .jumbotron, .container-fluid .jumbotron {
-    padding:0;
 }
 .side-container{
     background-color:#c75924;
@@ -253,45 +246,3 @@ li>a{
 }
 .fsz2-2{font-size:2.2rem;}
 .fsz1-7{font-size:1.7rem}
-
-/****** Media Queries ******/
-@media screen and (max-width: 768px){
-    .container .jumbotron, .container-fluid .jumbotron {
-        padding:0;
-    }
-    .nav-row{
-        display:block;
-    }
-    .nav-col{
-        display:block;
-    }
-    .navbar-nav{
-        display:block;
-    }
-    .navbar>.container-fluid{
-        display:block;
-    }
-}
-@media (max-width: 992px){
-    
-    .title-row{
-        display:block;
-    }
-    .jumbo-image{
-        height:100%;
-    }
-    .nav-row{display:block;}
-    .jumbotron{
-        display:block;
-    }
-    .display-md{
-        display:grid;
-    }
-    .display-lg{
-        display:none;
-    }
-    .title{
-        background-color:transparent;
-    }
-
-}

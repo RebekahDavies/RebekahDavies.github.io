@@ -1,0 +1,48 @@
+.container .jumbotron, .container-fluid .jumbotron {
+    padding:0;
+}
+.display-md{
+    display:none;
+    background:transparent;
+}
+/****** Media Queries ******/
+@media screen and (max-width: 768px){
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding:0;
+    }
+    .nav-row{
+        display:block;
+    }
+    .nav-col{
+        display:block;
+    }
+    .navbar-nav{
+        display:block;
+    }
+    .navbar>.container-fluid{
+        display:block;
+    }
+}
+@media (max-width: 992px){
+    
+    .title-row{
+        display:block;
+    }
+    .jumbo-image{
+        height:100%;
+    }
+    .nav-row{display:block;}
+    .jumbotron{
+        display:block;
+    }
+    .display-md{
+        display:grid;
+    }
+    .display-lg{
+        display:none;
+    }
+    .title{
+        background-color:transparent;
+    }
+
+}
