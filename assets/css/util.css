@@ -223,8 +223,11 @@ li>a{
       margin: 1rem;
       color: #fff;
   }
+  .panel > .title {
+      background-color:#c75925;
+  }
   .edu-panel{
-      width:50%;
+      width:57%;
       display:inline-flex;
   }
 /****** background colours ******/
