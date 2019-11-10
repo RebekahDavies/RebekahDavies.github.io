@@ -6,9 +6,9 @@ $('#nav').load("templates/nav.html");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-function openModel(modelId){
-    modal = document.getElementById(modelId)
-    model.style.display = "block";
+function openModal(modalId){
+    modal = document.getElementById(modalId)
+    modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
