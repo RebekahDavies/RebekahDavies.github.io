@@ -209,7 +209,8 @@ li>a{
     border-bottom: 2px solid #f05106;
   }
   .modal-body{
-      overflow: scroll;
+    overflow: scroll;
+    max-height: 65rem;
   }
   
   /* The Close Button */
@@ -238,7 +239,7 @@ li>a{
       background-color:#c75925;
   }
   .edu-panel{
-      width:57%;
+      width:47%;
       display:inline-flex;
   }
 /****** background colours ******/

@@ -13,7 +13,7 @@ function openModal(modalId){
 
 // When the user clicks on <span> (x), close the modal
 function closeModal() {
-modal.style.display = "none";
+    modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
