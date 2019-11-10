@@ -1,6 +1,6 @@
 let modal;
 //load navigation
-$('#nav').load("templates/nav.html");
+$('#nav').load("../templates/nav.html");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
