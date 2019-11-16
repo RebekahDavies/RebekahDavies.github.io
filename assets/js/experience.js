@@ -11,6 +11,7 @@ function openModal(modalId){
 
 // When the user clicks on <span> (x), close the modal
 function closeModal() {
+    console.log("modal style = " + modal.style.display);
     modal.style.display = "none";
 }
 

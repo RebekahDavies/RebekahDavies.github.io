@@ -170,6 +170,15 @@ li>a{
     display:flex;
     align-items:flex-end;
 }
+
+/****** Buttons ******/
+.btn-pink{
+    background-color:#f3005c;
+}
+.btn-orange{
+    background-color:#c75925;
+}
+
 /****** Modal + panels ******/
 
 /* The Modal (background) */
@@ -199,11 +208,14 @@ li>a{
     margin: 0;
     line-height: 1.42857143;
     width: 100%;
-    border-bottom: 2px solid #f05106;
+    border-bottom: 2px solid #f05104;
   }
   .modal-body{
     overflow: scroll;
     max-height: 65rem;
+  }
+  .model-footer{
+    border-top: 1px solid #f05104;
   }
   
   /* The Close Button */
