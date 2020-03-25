@@ -172,8 +172,15 @@ li>a{
 }
 
 /****** Buttons ******/
+.btn{
+    padding:1rem 1rem 0rem 1rem;
+}
 .btn-pink{
     background-color:#f3005c;
+}
+.btn-pink:hover{
+    color:#fff;
+    background-color:#b70044;
 }
 .btn-orange{
     background-color:#c75925;
