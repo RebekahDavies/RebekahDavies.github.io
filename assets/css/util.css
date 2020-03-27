@@ -243,12 +243,9 @@ li>a{
   }
 
   .panel{
-      background-color: #c75925;
       margin: 1rem;
       color: #fff;
-  }
-  .panel > .title {
-      background-color:#c75925;
+      border-color: #f3005c;
   }
   .edu-panel{
       width:47%;
