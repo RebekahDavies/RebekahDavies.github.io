@@ -11,10 +11,8 @@ h1, h2, h3{
 h1{
     font-size: 2.5rem;
 }
-.education > h1, .work-exp > h1{
-    background-color:#f3005c;
+.education > h1, .work-exp > h1 {
     padding:1.5rem;
-    border-radius: 1rem;
 }
 li{
     color:#fff;
