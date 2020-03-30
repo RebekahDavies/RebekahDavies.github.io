@@ -14,13 +14,13 @@ function openModal(modalId){
 // When the user clicks on <span> (x), close the modal
 function closeModal() {
     console.log("modal style = " + modal.style.display);
-    modal = document.getElementById(id);
+    console.log(id);
     modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-if (event.target == modal) {
+    if (event.target == modal) {
     modal.style.display = "none";
 }
 }

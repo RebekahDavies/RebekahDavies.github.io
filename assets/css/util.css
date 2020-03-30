@@ -176,7 +176,7 @@ li>a{
 .btn-pink{
     background-color:#f3005c;
 }
-.btn-pink:hover{
+.btn-pink:hover, .btn-pink:focus{
     color:#fff;
     background-color:#b70044;
 }
